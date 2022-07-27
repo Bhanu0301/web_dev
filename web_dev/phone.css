@@ -1,4 +1,4 @@
-
+/*navigation*/
 #navbar {
     flex-direction: column;
 }
@@ -8,7 +8,7 @@
     padding: 0px 7px;
     padding-bottom: 8px;
 }
-
+/*home Section*/
 #home{
     height: 370px; 
     padding: 3px 28px;
@@ -19,8 +19,8 @@
 }
 
 #home p{
-    font-size: 13px;
-}
+    font-size: 13px; /*i am reducing the size of paragraph font in phonr*/
+} 
 
 
 #services{
@@ -55,4 +55,9 @@
 .btn{
     font-size: 13px;
     padding: 4px 8px;
+    text-decoration: none;
+}
+.btn:hover{
+    color :black;
+    background-color:azure;
 }
