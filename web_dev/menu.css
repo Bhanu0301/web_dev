@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:beige;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.heading {
+    background-color: rgb(27, 27, 29);
+    color: beige;
+    margin-bottom:30px ;
+    padding: 30px;
+    grid-column: 1/-1;
+    text-align: center;
+}
+.heading>h1{
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom:10px;
+}
+.heading>h3{
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.menu{
+    padding: 0 10px 30px 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px 20px;
+
+}
+.food-items{
+    display:grid;
+    position:relative;
+    grid-template-rows:auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(54, 50, 50);
+    margin: 0 20px;
+}
+.food-items img{
+    position : relative;
+    width: 100%;
+    height: 33vh; 
+    border-radius: 15px 15px 0 0;
+}
+h1{
+     grid-column: 1/-1;
+    text-align: center;
+}
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+.details-sub{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.details-sub>h5{
+    font-weight: 800;
+    font-size: 20px;
+}
+.price{
+    text-align: right;
+}
+.details>p{
+    color: rgb(55, 51, 51);
+    font-size:15px;
+    font-weight: 500;
+    line-height: 25px;
+    align-self: stretch;
+}
+.details>button{
+    background-color: black;
+    color: beige;
+    border-radius:10px;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    width: 180px;
+}
+.details>button:hover{
+    background-color: rgb(126, 126, 114);
+    color:black;
+}
