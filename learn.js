@@ -195,3 +195,10 @@ function CartBoxComponent(title,price,imgSrc){
         <i style='font-size:24px' class='fas fa-cart-arrow-down cart-remove'></i>
     </div>`;
 }
+
+
+
+//let imgSrc = document.querySelector(".food-items-image").src;
+    //let imgSrc = product.querySelector(".food-items-image").src;
+    //var imgSrc = document.getElementById("Img").src;
+//Try this first instead of the above if else conditional, if it doesn't work then continue.
