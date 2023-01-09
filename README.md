@@ -1,4 +1,4 @@
-# web_dev
+# Canteen Website
 
 Created a website for our college Canteen using HTML,CSS and Javascript.
 
